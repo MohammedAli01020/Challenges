@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="Primary">#303031</color>
+    <color name="PrimaryDark">#363638</color>
+
+    <color name="fragmentSectionColor">#cccc</color>
+    <color name="fragmentSectionColorWight">#FFF</color>
+</resources>

@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:padding="25dp"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:id="@+id/tv_fragment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        tools:text="title" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_fragment_title"
+        android:src="@drawable/ic_fitness1"
+        android:id="@+id/img_fragment_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+</RelativeLayout>
